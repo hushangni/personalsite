@@ -1,0 +1,88 @@
+html {
+	height: 100%;
+}
+
+#centerContent {
+	text-align: left;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			 0px 8px 13px rgba(0,0,0,0.1),
+			 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+body{
+	background: url(../images/ferris.jpg);
+	background-size: cover;
+	font-family: Lato;
+}
+
+h1, h3{
+	color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr{
+	float: left;
+	width: 500px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#logo{
+	margin-top: 8px;
+	padding: 0;
+	height: 36px;
+	width: 38px;
+	float: left;
+	margin-right: 10px;
+}
+
+#name{
+	float: right;
+	padding-left: 10px;
+}
+
+.navbar{
+	background-color: white;
+}
+
+.fa {
+    color: #c1c1c1;
+}
+
+.nav > li.github > a:hover {
+	background: #24292E !important;
+}
+
+.nav > li.facebook > a:hover {
+    background: #3b5998 !important;
+}
+
+.nav > li.twitter > a:hover {
+    background: #55acee !important;
+}
+
+.nav > li.instagram > a:hover {
+    background: #405de6;
+    background: -webkit-linear-gradient(left top, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: -o-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: -moz-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: linear-gradient(to bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+}
+
+
+.nav > li.linkedin > a:hover {
+    background: #0077b5 !important;
+}
+
+.nav.navbar-nav.navbar-right >li > a{
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-nav > li > a {
+}
